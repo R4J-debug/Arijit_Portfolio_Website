@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import cn from "classnames";
 
 import section6Styles from "./section6.module.scss";
 
@@ -14,7 +13,7 @@ const RenderSection6 = (props) => {
   const copyContactNumberImageClick = async (val) => {
     
     try {
-      if (val == "number") {
+      if (val === "number") {
         await navigator.clipboard.writeText(phoneNumber);
         setIsCopied(true);
         console.log("Phone number copied to clipboard!");

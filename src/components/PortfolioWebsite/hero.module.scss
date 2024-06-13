@@ -74,6 +74,9 @@
     font-size: 36px;
   }
 }
+.hero_title .Typewriter__cursor {
+  display: none !important; /* Hide the cursor forcefully */
+}
 .highlight2 {
   position: relative;
   display: flex;

@@ -1,5 +1,4 @@
 import React from 'react';
-import cn from 'classnames';
 
 import section4Styles from './section4.module.scss';
 

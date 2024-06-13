@@ -1,5 +1,4 @@
 import React from "react";
-import cn from "classnames";
 
 import section3Styles from "./section3.module.scss";
 
