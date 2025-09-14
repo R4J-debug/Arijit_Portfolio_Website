@@ -6,12 +6,10 @@ function scrollToSection(sectionId) {
 }
 
 const handleDownload = () => {
-  // 📄 UPDATE THIS: Change the filename to match your new resume
-  const fileUrl = "/assets/Arijit_Sarkar_Resume.pdf"; // ← Change this to your new file name
+  const fileUrl = "/assets/Arijit_Sarkar_Resume_2025.pdf"; 
   const link = document.createElement("a");
   link.href = fileUrl;
-  // 📥 UPDATE THIS: Change the download name if desired
-  link.download = "Arijit_Sarkar_Resume.pdf"; // ← Change this to your preferred download name
+  link.download = "Arijit_Sarkar_Resume.pdf"; 
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
