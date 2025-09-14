@@ -6,7 +6,7 @@ function scrollToSection(sectionId) {
 }
 
 const handleDownload = () => {
-  const fileUrl = "/assets/Arijit_Sarkar_Resume_2025.pdf"; 
+  const fileUrl = "/assets/Arijit_Resume_2025.pdf"; 
   const link = document.createElement("a");
   link.href = fileUrl;
   link.download = "Arijit_Sarkar_Resume.pdf"; 
